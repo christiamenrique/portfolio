@@ -1,0 +1,33 @@
+.icons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  color: white;
+  margin-top: 200px;
+}
+.fab {
+  color: white;
+  height: 50px;
+}
+
+.icons a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+a i {
+  display: inline;
+  margin: 0 20px;
+}
+
+footer {
+    background-image: url(../../images/overlay.png), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+      url(../../images/bg.jpg);
+  }

@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Contact Form</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="./styles/nav.css" />
+    <link rel="stylesheet" href="./styles/contact.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
+    <script src="https://kit.fontawesome.com/04b3baf344.js"></script>
+</head>
+
+<body>
+    <nav>
+        <ul class="navWrapper">
+            <li class="navBar">
+                <a href="index.html">Home</a>
+            </li>
+            <li class="navBar">
+                <a href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="navBar">
+                <a href="contact.html">Contact</a>
+            </li>
+            <!-- <li class="navBar">
+                <a href="Resume.html">Resume</a>
+            </li> -->
+        </ul>
+    </nav>
+
+    <form class="cmxform form-dislpay" name="contact" method="POST" data-netlify="true">
+        <h1>Contact me</h1>
+        <fieldset>
+            <div class="form-spacing">
+                <label htmlFor="name">Full Name *</label>
+                <input id="name" minLength="2" name="fullName" type="text" required />
+            </div>
+            <div class="form-spacing">
+                <label htmlFor="email">Email *</label>
+                <input id="email" type="email" name="email" required />
+            </div>
+            <div class="form-spacing">
+                <label htmlFor="phone">Phone Number *</label>
+                <input type="number" id="phone" name="phoneNumber" required />
+            </div>
+            <div class="form-spacing">
+                <label htmlFor="comment">Your comment *<mark*</mark> </label> <textarea class="form-comment"
+                        id="comments" name="comments" required></textarea>
+            </div>
+            <div class="form-spacing">
+                <button type="submit" class="btn">submit</button>
+            </div>
+        </fieldset>
+    </form>
+
+    <footer>
+        <ul class="icons">
+            <li>
+                <a href="https://www.linkedin.com/in/christiam-hernandez-776098136/">
+                    <i class="fab fa-linkedin"></i>
+                    <span class="label" target="_blank">Linkedin</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/christiam.enrique.9"><i class="fab fa-facebook-square"></i>
+                    <span class="label" target="_blank">Facebook</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/christiaenrique/?hl=en"><i class="fab fa-instagram"></i>
+                    <span class="label" target="_blank">Instagram</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/christiamenrique"><i class="fab fa-github"></i>
+                    <span class="label" target="_blank">GitHub</span>
+                </a>
+            </li>
+        </ul>
+    </footer>

@@ -1,0 +1,79 @@
+form {
+  text-align: center;
+  width: 100%;
+  margin: 10px 1rem;
+  line-height: 1.2;
+}
+
+form h1 {
+  color: white;
+  margin-top: 40px;
+}
+
+fieldset {
+  width: 75%;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  fieldset {
+    width: 50%;
+  }
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #f2f2f2;
+  margin-top: 40px;
+}
+
+.has.error {
+  background-color: yellow;
+}
+
+label {
+  width: 100%;
+  font-style: italic;
+  font-size: large;
+}
+
+.btn {
+  margin-top: 20px;
+  width: 80px;
+  height: 40px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+input {
+  border: none;
+  position: relative;
+  padding: 0.5rem 1rem;
+  background-color: white;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  text-align: center;
+  border-radius: 0.8rem;
+}
+
+textarea {
+  border: none;
+  position: relative;
+  padding: 0.5rem 1rem;
+  background-color: white;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  text-align: center;
+  border-radius: 0.8rem;
+  height: 300px;
+}
+
+@media (max-width: 414px) {
+  form {
+    text-align: center;
+    margin: 10px auto;
+    line-height: 1.2;
+    width: auto;
+  }
+}
