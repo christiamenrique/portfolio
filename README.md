@@ -9,6 +9,6 @@
 Copy link in the browser 
 https://my-portfolio-page.netlify.com/
 
-#Install
+# Install
 * Open terminal
-* git clone
+* git clone https://github.com/christiamenrique/portfolio.git
