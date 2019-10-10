@@ -134,12 +134,16 @@ table {
   height: 100px;
 }
 
+nav {
+  width: 100%;
+}
 .navBar {
   display: flex;
   text-align: center;
   text-decoration: none;
   /* background-color: transparent; */
   color: rgba(255, 255, 255, 0.5);
+  font-size: 30px;
 }
 
 .navBar :hover {
@@ -149,10 +153,22 @@ table {
 .navBar a {
   text-decoration: none;
   margin-top: 40px;
-  color: white;
+}
+
+a:active {
+  color: #007bff;
+}
+
+.active {
+  color: #007bff;
+}
+
+.noActive {
+  color:white;
 }
 
 body {
   background-image: url(../../images/overlay.png), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
     url(../../images/bg.jpg);
+    
 }

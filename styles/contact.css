@@ -1,7 +1,7 @@
 form {
   text-align: center;
   width: 100%;
-  margin: 10px 1rem;
+  margin-top: 70px;
   line-height: 1.2;
 }
 
@@ -35,7 +35,7 @@ label {
 label {
   width: 100%;
   font-style: italic;
-  font-size: large;
+  font-size: 30px;
 }
 
 .btn {
