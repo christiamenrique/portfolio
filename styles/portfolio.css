@@ -1,4 +1,4 @@
-.parallax{
+.parallax {
   margin-top: 50px;
   background-image: url("../images/portImage.jpg");
   height: 800px;
@@ -9,12 +9,12 @@
   background-size: cover;
 }
 
-.h1Adjust{
-position: absolute;
+.h1Adjust {
+  position: absolute;
   top: 5%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: rgba(0, 0, 0, .7);
+  background: rgba(0, 0, 0, 0.7);
   padding: 10px;
 }
 
@@ -29,6 +29,7 @@ h1 {
   display: grid;
   grid-template-columns: auto auto auto auto;
   padding: 10px;
+  justify-content: center;
 }
 
 .grid-item {
@@ -72,23 +73,34 @@ h1 {
   letter-spacing: 3px;
 }
 
-@media screen and (max-width: 879px) {
+@media screen and (max-width: 1600px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 5px;
+    font-size: 30px;
+    padding-left: 0;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1191px) {
   .grid-container {
     display: grid;
     grid-template-columns: auto auto;
     padding: 5px;
     font-size: 30px;
     padding-left: 0;
+    justify-content: center;
   }
 }
 
-@media screen and (max-width: 571px) {
+@media screen and (max-width: 650px) {
   .grid-container {
     display: grid;
     grid-template-columns: auto;
-    font-size: 15px;
-    margin-left: 5px;
-    padding: 10;
-    margin-right: 40px;
+    font-size: 10px;
+    margin-left: 40px;
+    justify-content: center;
   }
 }
