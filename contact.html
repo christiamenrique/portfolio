@@ -15,13 +15,13 @@
     <nav>
         <ul class="navWrapper">
             <li class="navBar">
-                <a href="index.html" class="noActive">Home</a>
+                <a href="index.html" class="noActive fas fa-home">Home</a>
             </li>
             <li class="navBar">
-                <a href="portfolio.html" class="noActive">Portfolio</a>
+                <a href="portfolio.html" class="noActive fas fa-briefcase">Portfolio</a>
             </li>
             <li class="navBar">
-                <a href="contact.html" class="active">Contact</a>
+                <a href="contact.html" class="active far fa-address-card">Contact</a>
             </li>
             <!-- <li class="navBar">
                 <a href="Resume.html">Resume</a>
@@ -33,20 +33,28 @@
         <!-- <h1>Contact me</h1> -->
         <fieldset>
             <div class="form-spacing">
-                <label htmlFor="name">Full Name *</label>
+                <label htmlFor="name">Full Name
+                    <span class="spanTag">*</span>
+                </label>
                 <input id="name" minLength="2" name="fullName" type="text" required />
             </div>
             <div class="form-spacing">
-                <label htmlFor="email">Email *</label>
+                <label htmlFor="email">Email
+                    <span class="spanTag">*</span>
+                </label>
                 <input id="email" type="email" name="email" required />
             </div>
             <div class="form-spacing">
-                <label htmlFor="phone">Phone Number *</label>
+                <label htmlFor="phone">Phone Number
+                    <span class="spanTag">*</span>
+                </label>
                 <input type="number" id="phone" name="phoneNumber" required />
             </div>
             <div class="form-spacing">
-                <label htmlFor="comment">Your comment *<mark*</mark> </label> <textarea class="form-comment"
-                        id="comments" name="comments" required></textarea>
+                <label htmlFor="comment">Your comment
+                    <span class="spanTag">*</span>
+                </label>
+                <textarea class="form-comment" id="comments" name="comments" required></textarea>
             </div>
             <div class="form-spacing">
                 <button type="submit" class="btn">submit</button>

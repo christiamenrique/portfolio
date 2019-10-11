@@ -172,3 +172,9 @@ body {
     url(../../images/bg.jpg);
     
 }
+
+@media screen and (max-width: 450px) {
+  .navBar {
+    font-size: 20px;
+  }
+}

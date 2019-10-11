@@ -46,6 +46,10 @@ label {
   cursor: pointer;
 }
 
+.spanTag {
+  color: red;
+}
+
 .btn:hover{
 background-color: #007bff;
 }

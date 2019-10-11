@@ -55,7 +55,7 @@ a:hover {
   }
 }
 
-@media (max-width: 411px) {
+@media (max-width: 455px) {
   .aboutMeText p {
     width: 250px;
     margin-left: 50px;
