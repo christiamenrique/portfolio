@@ -46,6 +46,10 @@ label {
   cursor: pointer;
 }
 
+.btn:hover{
+background-color: #007bff;
+}
+
 input {
   border: none;
   position: relative;

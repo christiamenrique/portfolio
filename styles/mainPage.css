@@ -30,11 +30,20 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 45px;
 }
 
 .aboutMeText a {
   text-decoration: none;
   color: white;
+  border: 2px solid;
+  padding: 10px;
+  border-radius: 25px;
+  width: 50px;
+}
+
+a:hover {
+  color: #007bff;
 }
 
 @media (max-width: 320px) {
